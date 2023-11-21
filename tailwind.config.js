@@ -17,6 +17,13 @@ module.exports = {
     },
     colors: {
       ...colors,
+      // Update deprecated color names
+      sky: colors.lightBlue,
+      stone: colors.warmGray,
+      neutral: colors.trueGray,
+      gray: colors.coolGray,
+      slate: colors.blueGray,
+      // Use the new color names
       primary: colors.purple,
       secondary: colors.pink,
     },
