@@ -74,7 +74,7 @@ const EmailSection = () => {
               id="email"
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="jacob@gmail.com"
+              placeholder="이메일 주소를 입력해주세요."
             />
           </div>
           <div className="mb-6">
@@ -90,7 +90,7 @@ const EmailSection = () => {
               id="subject"
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="Subject"
+              placeholder="제목을 입력해주세요."
             />
           </div>
           <div className="mb-6">
@@ -104,12 +104,12 @@ const EmailSection = () => {
               name="message"
               id="message"
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="Message"
+              placeholder="메시지를 작성해주세요."
             />
           </div>
           <button
             type="submit"
-            className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+            className="bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
           >
             Send Message
           </button>

@@ -24,8 +24,8 @@ module.exports = {
       gray: colors.coolGray,
       slate: colors.blueGray,
       // Use the new color names
-      primary: colors.purple,
-      secondary: colors.pink,
+      primary: colors.sky,
+      secondary: colors.blue,
     },
   },
   plugins: [],
