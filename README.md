@@ -1,4 +1,5 @@
-![메인 페이지](https://github.com/dodam24/portfolio-website/assets/121652059/22454ae9-a027-49b5-a513-275f24bd9d32)
+<img src="https://github.com/dodam24/portfolio-website/assets/121652059/bd5fe0e1-b36a-41d5-8f95-60f0d3059c39">
+
 
 해당 프로젝트는 [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)으로 시작된 [Next.js](https://nextjs.org/) 프로젝트입니다.
 
