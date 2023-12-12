@@ -33,8 +33,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Computer Specialist in Spreadsheet and Database Level- 1</li>
+        <li>Advanced Data Analytics Semi-Professional</li>
       </ul>
     )
   }
@@ -57,12 +57,20 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
+            {/* I am a Frontend developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, React, Redux, Node.js, Express, MySQL,
             MongoDB, HTML, CSS, and Git. I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I am excited to work with others to create amazing applications. */}
+            안녕하세요. 성장 지향적인 프론트엔드 신입 개발자 최도담입니다.
+            ‘멀리 가려면 함께 가라’라는 모토를 가지고 웹 개발과 관련된 다양한 분야를 학습 중입니다. 
+            함께 가기 위해서 스스로 필요한 기술을 습득하고, 
+            프론트엔드 외에도 백엔드, 데이터 등 다양한 분야를 이해하려고 합니다.
+            JavaScript, React, Node.js, Express, TypeScript, MySQL, MongoDB, Git 등 
+            다양한 기술 및 프레임워크를 사용해 본 경험이 있습니다.
+            항상 배움을 게을리 하지 않고, 새로운 기술과 환경, 트렌드에 능동적으로 대처할 수 있는
+            개발자가 되겠습니다.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton

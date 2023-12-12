@@ -9,47 +9,47 @@ const projectsData = [
   {
     id: 1,
     title: "Hotel Booking Website",
-    description: "Project 1 description",
+    description: "MERN 스택을 활용한 호텔 예약 사이트",
     image: "/images/projects/hotel-booking.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Individual"],
+    gitUrl: "https://github.com/dodam24/BookingApp",
     previewUrl: "/",
   },
   {
     id: 2,
     title: "Car Showcase Website",
-    description: "Project 2 description",
+    description: "React, TypeScript, Tailwind CSS를 활용한 자동차 쇼케이스",
     image: "/images/projects/car.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Individual"],
+    gitUrl: "https://github.com/dodam24/cars_showcase",
     previewUrl: "/",
   },
   {
     id: 3,
     title: "React Portfolio Website",
-    description: "Project 3 description",
+    description: "Next.js 및 고급 애니메이션을 활용한 반응형 포트폴리오 웹사이트",
     image: "/images/projects/portfolio.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Individual"],
+    gitUrl: "https://github.com/dodam24/portfolio-website",
+    previewUrl: "https://portfolio-website-nine-indol.vercel.app",
   },
   {
     id: 4,
     title: "Food Ordering Website",
-    description: "Project 4 description",
+    description: "AI 추천 시스템을 바탕으로 한 온라인 식재료 판매 웹 사이트",
     image: "/images/projects/kurly.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    tag: ["All", "Team"],
+    gitUrl: "https://github.com/dodam24/Kurly",
     previewUrl: "/",
   },
   {
     id: 5,
     title: "Funding Website",
-    description: "Authentication and CRUD operations",
+    description: "스프링 프레임워크 및 MyBatis를 활용한 기부 및 펀딩 웹사이트",
     image: "/images/projects/funding.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Team"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://drive.google.com/file/d/1nMRTm1ac7IWob7ejeM_o9xwbJFj3-v0N/view?usp=sharing",
   },
 ];
 
@@ -84,13 +84,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Individual"
+          isSelected={tag === "Individual"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Team"
+          isSelected={tag === "Team"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
