@@ -57,12 +57,6 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            {/* I am a Frontend developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, MySQL,
-            MongoDB, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications. */}
             안녕하세요. 성장 지향적인 프론트엔드 신입 개발자 최도담입니다.
             ‘멀리 가려면 함께 가라’라는 모토를 가지고 웹 개발과 관련된 다양한 분야를 학습 중입니다. 
             함께 가기 위해서 스스로 필요한 기술을 습득하고, 
